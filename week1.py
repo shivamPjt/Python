@@ -142,4 +142,14 @@
 
 # -----------------------------------------
 
-# Q14. Check if a given year is a leap year or not.
+# # Q14. Check if a given year is a leap year or not.
+# a = int(input("Enter a year: "));
+# if (a % 400 == 0) or (a % 4 == 0 and a % 100 != 0):
+#     print(a, "is a leap year.");
+# else:
+#     print(a, "is not a leap year.");
+
+# -----------------------------------------
+
+# Q15. Create a program to print the Fibonacci series up to N terms.
+

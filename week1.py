@@ -151,5 +151,49 @@
 
 # -----------------------------------------
 
-# Q15. Create a program to print the Fibonacci series up to N terms.
+# # Q15. Create a program to print the Fibonacci series up to N terms.
+# a = int(input("Enter the n terms: "));
+# b = 0;
+# c = 1;
+# print(f"{b}\n{c}");
+# for i in range(1,a-1):
+#     n = b+c;
+#     b=c;
+#     c=n;
+#     print(n);
+
+
+# Q16. Write a program to find the GCD of two numbers.
+
+
+
+
+# Q17. Write a program to find the LCM of two numbers.
+
+
+
+
+
+
+# # Q18. Check whether a character is a vowel or consonant.
+# a = input("Enter the character: ");
+# if(a=='a' or a=='e' or a=='i' or a=='o' or a=='u' or a=='A' or a=='E' or a=='I' or a=='O' or a=='U'):
+#     print(f"{a} is vowel.");
+# else:
+#     print(f"{a} is not vowel.");
+
+
+
+# # Q19. Write a program to calculate the sum of digits of a number.
+# import math;
+# a = int(input("Enter a number: "));
+# sum = 0;
+# while(a!=0):
+#     sum = sum*10+math.floor(a%10);
+#     a = math.floor(a/10);
+# print(f"Sum is {sum}");
+
+
+# Q20. Create a program to find the second largest number in a list.
+
 
